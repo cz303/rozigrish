@@ -10,11 +10,11 @@ from telebot import types
 from pymongo import MongoClient
 import traceback
 
-token = os.environ['659414060:AAFwq-ZT-IJVkGGS78o4N4NFfw_1BkMIU5Q']
+token = ''
 bot = telebot.TeleBot(token)
 
 
-client=MongoClient(os.environ['mongodb://heroku_8hbfl0j5:22fq8e67b0sqfckme0ibp5hbt3@ds241408.mlab.com:41408/heroku_8hbfl0j5'])
+client=MongoClient('')
 db=client.base1
 users=db.users
 channels = db.channels
