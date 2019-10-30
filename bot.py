@@ -46,7 +46,7 @@ def createchannel():
     }
 
 def createuser(user):
-    x = users.findone({'id':user.id})
+    x = users.fin_done({'id':user.id})
     if x == None:
         users.insert_one({
             'id':user.id,
