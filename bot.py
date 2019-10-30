@@ -10,7 +10,7 @@ from telebot import types
 from pymongo import MongoClient
 import traceback
 
-token = ''
+token = '659414060:AAFwq-ZT-IJVkGGS78o4N4NFfw_1BkMIU5Q'
 bot = telebot.TeleBot(token)
 
 
@@ -20,7 +20,7 @@ users=db.users
 channels = db.channels
 
 test_channel = -1001435448112
-admins = [441399484, 864442319]
+admins = [677805757, 452069836]
 
 
 def randomgen():
