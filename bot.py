@@ -614,5 +614,4 @@ def medit(message_text,chat_id, message_id,reply_markup=None,parse_mode=None):
                                  parse_mode=parse_mode)   
 
 print('7777')
-bot.polling(none_stop=True,timeout=600)
-
+bot.polling()
