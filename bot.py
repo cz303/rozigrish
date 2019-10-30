@@ -19,7 +19,7 @@ db=client.base1
 users=db.users
 channels = db.channels
 
-test_channel = -1001435448112
+test_channel = -1001325142450
 admins = [677805757, 452069836]
 
 
